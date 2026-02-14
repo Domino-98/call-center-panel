@@ -1,0 +1,72 @@
+// Colors
+$color-primary: #4f46e5;
+$color-primary-light: #6366f1;
+$color-primary-hover: #4338ca;
+
+$color-bg: #f8fafc;
+$color-bg-card: #ffffff;
+$color-bg-hover: #f1f5f9;
+
+$color-text: #0f172a;
+$color-text-secondary: #475569;
+$color-text-muted: #64748b;
+
+$color-border: #e2e8f0;
+$color-border-light: #f1f5f9;
+
+$color-status-new: #1d4ed8;
+$color-status-new-bg: #eff6ff;
+$color-status-new-border: #bfdbfe;
+
+$color-status-in-progress: #b45309;
+$color-status-in-progress-bg: #fffbeb;
+$color-status-in-progress-border: #fde68a;
+
+$color-status-closed: #047857;
+$color-status-closed-bg: #ecfdf5;
+$color-status-closed-border: #a7f3d0;
+
+$color-priority-high: #b91c1c;
+$color-priority-high-bg: #fef2f2;
+$color-priority-medium: #b45309;
+$color-priority-medium-bg: #fffbeb;
+$color-priority-low: #4b5563;
+$color-priority-low-bg: #f9fafb;
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-ms: 0.75rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+
+// Border radius
+$radius-sm: 0.375rem;
+$radius-md: 0.5rem;
+$radius-lg: 0.75rem;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+// Typography
+$font-family: 'Inter', system-ui, -apple-system, sans-serif;
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-2xl: 1.5rem;
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// Transitions
+$transition-fast: 150ms ease;
+$transition-base: 200ms ease;

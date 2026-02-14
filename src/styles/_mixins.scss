@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: $breakpoint-sm) { @content; }
+  } @else if $breakpoint == md {
+    @media (max-width: $breakpoint-md) { @content; }
+  } @else if $breakpoint == lg {
+    @media (max-width: $breakpoint-lg) { @content; }
+  }
+}
+
+@mixin card {
+  background: $color-bg-card;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-sm;
+}
+
+@mixin focus-ring {
+  outline: 2px solid $color-primary;
+  outline-offset: 2px;
+}
